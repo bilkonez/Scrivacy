@@ -12,12 +12,6 @@ struct Message {
 		text = new char[100];
 	};
 
-	~Message() {
-
-		delete[] text;
-		text = nullptr;
-	}
-
 };
 
 string encryptionTask(string);
